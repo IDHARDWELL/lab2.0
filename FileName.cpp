@@ -7,10 +7,11 @@ int main()
 	double z2;
 	double m;
 	double pi = atan(1.0) * 4;
-
+	z1 = 10;
+	z2 = 20;
 	cout << " m= "; cin >> m;
-	z1 = cos(m) + sin(m) + cos(3 * m) + sin(3 * m);
-	z2 = 2 * sqrt(2) * cos(m) * sin((pi / 4) + 2 * m);
+	//z1 = cos(m) + sin(m) + cos(3 * m) + sin(3 * m);
+	//z2 = 2 * sqrt(2) * cos(m) * sin((pi / 4) + 2 * m);
 	if (z1 >= z2)
 	{
 		cout << "WOW" << endl;
